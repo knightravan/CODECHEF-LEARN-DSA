@@ -1,0 +1,12 @@
+a=int(input())
+si,sj=0,10
+for i in range(1,a+1):
+    if i%2!=0:
+        for  j in range(si+1,si+6):
+            print(j,end=" ")
+        si+=10
+    else:
+        for k in range(sj,sj-5,-1):
+            print(k,end=" ")
+        sj+=10
+    print()
