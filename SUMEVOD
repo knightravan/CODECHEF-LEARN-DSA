@@ -1,0 +1,8 @@
+a=int(input())
+se,so=0,0
+for i in range(a*2+1):
+    if i%2==0:
+        se+=i
+    else:
+        so+=i
+print(so,se)
